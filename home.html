@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hồ Bơi Vifa</title>
+
+    <!-- Bootstrap -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Font awesome CSS -->
+    <link href="asset/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="asset/js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="asset/js/slick/slick-theme.css"/>
+
+    <!-- Wow CSS -->
+    <link rel="stylesheet" href="asset/js/wow/css/animate.css">
+
+    <!-- Style CSS -->
+    <link href="asset/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+
+      <!-- Button search -->
+      <div class="wrapBtnSearch">
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <form class="navbar-form navbar-left dropdown-menu">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Nhập nội dung...">
+            </div>
+            <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+      </div>
+      <!-- End Button search -->
+
+      <!-- Social -->
+      <div class="wrapSocial">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+          <li role="presentation"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li role="presentation"><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <!--End Social -->
+
+      <!-- Menu Top -->
+      <div class="menuTop">
+        <div class="container">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <!-- <a class="navbar-brand" href="#"><img src="asset/image/logo.png"></a> -->
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Giới thiệu</a></li>
+                  <li><a href="#">Thiết bị hồ bơi</a>
+                    <div class="icSubMenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                    <ul>
+                      <li><a href="#">Thiết bị hồ bơi</a></li>
+                      <li><a href="#">Thiết bị vệ sinh hồ bơi</a></li>
+                      <li><a href="#">Phụ kiện hồ bơi</a></li>
+                      <li><a href="#">Hóa chất hồ bơi</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Dịch vụ</a>
+                    <div class="icSubMenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                    <ul>
+                      <li><a href="#">Tư vấn thiết kế</a></li>
+                      <li><a href="#">Xây dựng</a></li>
+                      <li><a href="#">Bảo trì</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Tin tức</a>
+                    <div class="icSubMenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                    <ul>
+                      <li><a href="#">Hoạt động sự kiện</a></li>
+                      <li><a href="#">Kinh doanh</a></li>
+                      <li><a href="#">Tin khác</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Hỗ trợ</a>
+                    <div class="icSubMenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+                    <ul>
+                      <li><a href="#">Các câu hỏi thường gặp</a></li>
+                      <li><a href="#">Hỗ trợ gửi yêu cầu</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Menu Top -->
+
+      <!-- Slide anh -->
+      <div class="wrapSlide">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>   
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="showImg" style="background-image: url(asset/image/slide2.jpg);"></div>
+              </div>
+              <div class="item">
+                  <div class="showImg" style="background-image: url(asset/image/slide3.jpg);"></div>
+              </div>
+              <div class="item">
+                  <div class="showImg" style="background-image: url(asset/image/slide1.jpg);"></div>
+              </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <!-- End Slide anh -->
+    </div>
+
+    <!-- Danh muc image -->
+    <div class="categoryImage" id="area1">
+      <div class="container">
+        <img src="asset/image/layout-hoboivifa.png">
+      </div>
+
+        <!-- Button scroll down -->
+        <div class="btnScrollDown"><a href="#area1"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+        <!-- End Button scroll down -->
+      </div>
+    <!-- End Danh muc image -->
+
+    <!-- About us -->
+    <div class="aboutUs" id="area2">
+      <div class="container">
+        <h2 class="titleElement">thiết bị hồ bơi</h2>
+
+        <div class="row">
+
+          <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="item">
+              <img src="asset/image/equipment1.jpg">
+              <h3><a href="#">thiết bị hồ bơi</a></h3>
+              <p>Thiết bị hồ bơi của Vifa được nhập khẩu từ các nhà cung cấp thiết bị hồ bơi Châu Âu,... Đảm bảo hàng chính hãng, uy tín trên toàn quốc.</p>
+            </div> 
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="item">
+              <img src="asset/image/equipment2.jpg">
+              <h3><a href="#">thiết bị vệ sinh hồ bơi</a></h3>
+              <p>Dụng cụ vệ sinh hồ bơi là những công cụ nhằm làm cho hồ bơi, bể bơi của bạn thêm sạch sẽ và an toàn hơn.</p>
+            </div> 
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="item">
+              <img src="asset/image/equipment3.jpg">
+              <h3><a href="#">phụ kiện hồ bơi</a></h3>
+              <p>Khi xây dựng hồ bơi bất kỳ kiểu mẫu nào, kích cỡ ra sao thì cũng phải cần có thiết bị hồ bơi & phụ kiện hồ bơi chuyên dụng.</p>
+            </div> 
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-3">
+            <div class="item">
+              <img src="asset/image/equipment4.png">
+              <h3><a href="#">hóa chất hồ bơi</a></h3>
+              <p>Giữ được màu trong xanh cho bể bơi và an toàn cho người sử dụng. Điều đó phụ thuộc rất nhiều vào các loại hoá chất bể bơi mà chúng ta sử dụng.</p>
+            </div> 
+          </div>
+
+        </div>
+      </div>
+
+        <!-- Button scroll down -->
+        <div class="btnScrollDown btnScrollDownGreenTop"><a href="#area2"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+        <!-- End Button scroll down -->
+    </div>
+    <!-- End About us -->
+
+    <!-- Service -->
+    <div class="service" id="area3">
+      <div class="container">
+        <h2 class="titleElement titleBlack">dịch vụ</h2>
+
+        <div class="row">
+
+          <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="item">
+              <img src="asset/image/service3.png">
+              <h3>Tư vấn thiết kế</h3>
+              <p>Bạn đang muốn thiết kế bể bơi, bạn có ý định lựa chọn một đơn vị chuyên nghiệp để có thể mang lại những bản thiết kế phù hợp và vừa mắt nhất, hãy đến với chúng tôi.</p>
+              <a href="#" class="btn btn-default">Xem thêm</a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="item">
+              <img src="asset/image/service2.png">
+              <h3>Xây dựng</h3>
+              <p>Với trang thiết bị hiện đại, cùng với quản lý quy trình làm việc chuyên nghiệp với đội ngũ kỹ thuật lành nghề chúng tôi luôn mang đến những sản phẩm chất lượng cao.</p>
+              <a href="#" class="btn btn-default">Xem thêm</a>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-6 col-md-4">
+            <div class="item">
+              <img src="asset/image/service1.png">
+              <h3>Bảo trì</h3>
+              <p>Thế mạnh làm nên thuong hiệu chúng tôi chính là: Chuyên môn hóa trong từng bộ phận, trách nhiệm cao, cũng những giám sát kỹ thuật làm việc nghiêm túc...</p>
+              <a href="#" class="btn btn-default">Xem thêm</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Button scroll down -->
+      <div class="btnScrollDown btnScrollDownGreenBottom"><a href="#area3"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+      <!-- End Button scroll down -->
+    </div>
+    <!-- End Service -->
+
+    <!-- Slide procuct -->
+    <div class="slideProduct" id="area4">
+      <h2 class="titleElement titleBlack">sản phẩm quan tâm nhiều</h2>
+
+      <div class="container">
+        <div id="showSlideProduct">
+
+          <div class="item">
+            <h3>máy bơm nước</h3>
+            <p>nik 0001</p>
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product1-0.png">
+              <img src="asset/image/product1-1.png">
+              <img src="asset/image/product1-2.png">
+            </div>
+          </div>
+
+          <div class="item">
+            <h3>máy bơm nước</h3>
+            <p>nik 0002</p>
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product5-0.png">
+              <img src="asset/image/product5-1.png">
+              <img src="asset/image/product5-2.png">
+            </div>
+          </div>
+
+          <div class="item">
+            <h3>máy lọc nước</h3>
+            <p>nik 0003</p>
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product3-0.png">
+              <img src="asset/image/product3-1.png">
+              <img src="asset/image/product3-2.png">
+            </div>
+          </div>
+
+          <div class="item">
+            <h3>máy lọc nước</h3>
+            <p>nik 0004</p>
+            
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product2-0.png">
+              <img src="asset/image/product2-1.png">
+              <img src="asset/image/product2-2.png">
+            </div>
+          </div>
+
+          <div class="item">
+            <h3>đèn chiếu sáng</h3>
+            <p>nik 0005</p>
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product4-0.png">
+              <img src="asset/image/product4-1.png">
+              <img src="asset/image/product4-2.png">
+            </div>
+          </div>
+
+          <div class="item">
+            <h3>đèn chiếu sáng</h3>
+            <p>nik 0006</p>
+            <div class="showSlideSubProduct">
+              <img src="asset/image/product6-0.png">
+              <img src="asset/image/product6-1.png">
+              <img src="asset/image/product6-2.png">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="wrapViewsMore">
+        <a href="#" class="btn btn-default">xem thêm</a>
+      </div>
+
+      <!-- Button scroll down -->
+      <div class="btnScrollDown btnScrollDownGrayTop"><a href="#area4"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+      <!-- End Button scroll down -->
+    </div>
+    <!-- End Slide procuct -->
+
+    <!-- Project -->
+    <div class="projectPopular" id="area5">
+      <div class="bgProjectPopular">
+        <h2 class="titleElement">Dự án nổi bật</h2>
+
+        <div class="container">
+          <div id="showSlideProjectPopular">
+
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentLeftProject">
+                    <img src="asset/image/project1.png">
+                  </div> 
+                </div>
+
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentRightProject">
+                    <h3>Thi công dự án Vinpeal – Phú Quốc</h3>
+                    <p class="categoryProject">Công trình hồ bơi khu nghỉ dưỡng</p>
+                    <p class="descriptionProject">Những dự án khu nghỉ dưỡng thì tất nhiên sẽ không bao giờ thiếu hồ bơi, vừa làm cảnh quan,  vừa để phục vụ bơi. Việc xây dựng một hồ bơi giành cho dự án thì không...</p>
+                    <a href="#">Xem thêm <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentLeftProject">
+                    <img src="asset/image/project2.png">
+                  </div> 
+                </div>
+
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentRightProject">
+                    <h3>Thi công hồ bơi nhà Mr. Phước – Cần Thơ</h3>
+                    <p class="categoryProject">Công trình hồ bơi biệt thự</p>
+                    <p class="descriptionProject">Bể bơi gia đình đang là xu thế hiện tại với những mẫu thiết kế phải thật đặc biệt bởi vì nó sẽ gắn với kiến trúc của Ngôi nhà, hơn nữa những mẫu Hồ bơi này nó...</p>
+                    <a href="#">Xem thêm <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentLeftProject">
+                    <img src="asset/image/project3.png">
+                  </div> 
+                </div>
+
+                <div class="col-xs-6 col-md-6">
+                  <div class="contentRightProject">
+                    <h3>Xây dựng hồ bơi cho Trường Hà Long – Long An</h3>
+                    <p class="categoryProject">Công trình hồ bơi khu nghỉ dưỡng</p>
+                    <p class="descriptionProject">Bơi lội là một môn thể thao phổ biến nhất hiện nay. Ngoài việc rèn luyện sức khỏe cho con em chúng ta mà còn giúp cho con em chúng ta được học bơi đúng cách, có thêm thời gia...</p>
+                    <a href="#">Xem thêm <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Button scroll down -->
+        <div class="btnScrollDown btnScrollDownWhiteBottom"><a href="#area5"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+        <!-- End Button scroll down -->
+      </div>
+    </div>
+    <!-- End Project -->
+
+    <!-- News -->
+    <div class="news" id="area6">
+      <div class="container">
+        <h2 class="titleElement titleBlack">tin tức</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="newsLeft">
+              <img src="asset/image/news4.png">
+              <h3><a href="#">hồ bơi jolie homestay - vũng tàu</a></h3>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="listNewsRight">
+
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/image/news1.png" >
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">7 xu hướng thiết kế bể bơi tạo nên điểm sáng 2018</a></h4>
+                </div>
+              </div>
+
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/image/news2.png" >
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">những xu hướng thiết kế bể bơi năm 2017</a></h4>
+                </div>
+              </div>
+
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="asset/image/news3.png" >
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading"><a href="#">Những ý tưởng thiết kế hồ bơi trong nhà</a></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button scroll down -->
+      <div class="btnScrollDown btnScrollDownGrayTop"><a href="#area6"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+      <!-- End Button scroll down -->
+    </div>
+    <!-- End News -->
+
+    <!-- Social -->
+    <div class="listSocial" id="area7">
+      <ul class="nav nav-pills">
+        <li role="presentation" ><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li role="presentation" ><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li role="presentation" ><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li role="presentation" ><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li role="presentation" ><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+        <li role="presentation" ><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+      </ul>
+
+      <!-- Button scroll down -->
+      <div class="btnScrollDown btnScrollDownGreenTop"><a href="#area7"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
+      <!-- End Button scroll down -->
+    </div>
+    <!-- End Social -->
+
+    <!--map and contact-->
+    <div class="wrapMapAndContact">
+      <div id="map" data-lat="12.2818198" data-lng="109.125108"></div>
+
+      <div class="contact">
+        <div class="container">
+          <h2 class="titleElement titleBlack">liên lạc</h2>
+
+          <div class="infoContact">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href="tel:+842583771379"><i class="fa fa-phone" aria-hidden="true"></i> 0258 3771 379</a></li>
+              <li role="presentation"><a href="tel:+84967990099"><i class="fa fa-phone" aria-hidden="true"></i> 0967 990 099</a></li>
+            </ul>
+
+            <a href="https://www.google.com/maps/search/L%C3%B4+A44+c%E1%BB%A5m+c%C3%B4ng+nghi%E1%BB%87p+Di%C3%AAn+Ph%C3%BA,+Di%C3%AAn+Kh%C3%A1nh,+Kh%C3%A1nh+H%C3%B2a/@12.2818198,109.125108,18z/data=!3m1!4b1">Lô A44 cụm công nghiệp Diên Phú, Diên Khánh, Khánh Hòa</a>
+          </div>
+
+          <form>
+            <div class="row">
+
+              <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Họ và tên:">
+              </div>
+
+              <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Số điện thoại:">
+              </div>
+
+              <div class="col-md-4">
+                <input type="email" class="form-control" placeholder="Email:">
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" rows="5" placeholder="Tin nhắn:"></textarea>
+              </div>
+
+              <div class="col-md-12 colBtnSend">
+                <button type="submit" class="btn btn-default">gửi ngay</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!--button close form contact-->
+      <div id="btnCloseContact"><i class="fa fa-times" aria-hidden="true"></i></div>
+
+      <!--button Open form contact-->
+      <div id="btnOpenContact"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    </div>
+    <!--end map and contact-->
+
+    <!-- Slide Logo -->
+    <div class="slideLogo">
+      <div class="container">
+        <div id="showSlideLogo">
+          <a href="#">
+            <img src="asset/image/slideLogo1.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo2.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo3.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo4.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo5.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo6.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo7.png">
+          </a>
+
+          <a href="#">
+            <img src="asset/image/slideLogo8.png">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Slide Logo -->
+
+    <!-- Footer menu and Footer facebook -->
+    <div class="menuFooter_facebookFooter">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-6">
+            <div class="menuFooter">
+              <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Thiết bị</a></li>
+                <li><a href="#">Hóa chất</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+
+                <li><a href="#">Thông tin thiết bị</a></li>
+                <li><a href="#">Thông tin bảo hành</a></li>
+                <li><a href="#">Hướng dẫn liên lạc</a></li>
+                <li><a href="#">Hướng dẫn lắp đặt</a></li>
+                <li><a href="#">Thông tin mua hàng</a></li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="facebookFooter">
+              <div id="fb-root"></div>
+              <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+
+              <div class="fb-page" data-href="https://www.facebook.com/vietphap.com.vn/" data-tabs="timeline" data-width="500" data-height="240" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/vietphap.com.vn/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/vietphap.com.vn/">VIỆT PHÁP - VIFASPORT</a></blockquote></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Footer menu and facebook -->
+
+    <!--Dang ky nhan bang tin-->
+    <div class="sigupMailFooter">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-5 col-sm-6 col-md-6">
+            <h3 class="tileSigupMailFooter"><span>đăng ký</span> nhận bảng tin</h3>
+          </div>
+
+          <div class="col-xs-7 col-sm-6 col-md-6">
+            <form class="form-inline formSignMailFooter">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Nhập địa chỉ Email">
+              </div>
+              <button type="submit" class="btn btn-default">đăng ký <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--Ket thuc Dang ky nhan bang tin-->
+
+    <!-- Footer thiet ke boi cong ty -->
+    <div class="designByCompanyFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-md-6">
+            <p class="text1">@ Vifa 2018</p>
+          </div>
+
+          <div class="col-xs-8 col-md-6">
+            <p class="text2">Thiết kế và phát triển bởi Sweetsoft</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- Ket thuc Footer thiet ke boi cong ty -->
+
+    <!-- JQuery JS -->
+    <script src="asset/js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <!-- Wow JS -->
+    <script src="asset/js/wow/js/wow.min.js"></script>
+
+    <!-- Slick JS -->
+    <script src="asset/js/slick/slick.min.js"></script>
+
+    <!-- Google map apis JS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQL-gEE16RcrCTRKO6azak9qrP6I0xKrU&callback=initMap"
+    async defer></script>
+
+    <!-- Script JS -->
+    <script src="asset/js/script.js"></script>
+  </body>
+</html>
